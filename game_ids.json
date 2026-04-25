@@ -1,0 +1,558 @@
+[
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "appId": null
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "appId": 1174180
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "appId": 292030
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "appId": 3240220
+  },
+  {
+    "name": "Minecraft",
+    "appId": 1912410
+  },
+  {
+    "name": "Super Mario Odyssey",
+    "appId": null
+  },
+  {
+    "name": "Elden Ring",
+    "appId": 1245620
+  },
+  {
+    "name": "God of War (2018)",
+    "appId": 1593500
+  },
+  {
+    "name": "Portal 2",
+    "appId": 620
+  },
+  {
+    "name": "Half-Life 2",
+    "appId": 220
+  },
+  {
+    "name": "Dark Souls III",
+    "appId": 374320
+  },
+  {
+    "name": "The Last of Us Part II",
+    "appId": 2531310
+  },
+  {
+    "name": "Uncharted 4: A Thief's End",
+    "appId": null
+  },
+  {
+    "name": "Doom Eternal",
+    "appId": 782330
+  },
+  {
+    "name": "Celeste",
+    "appId": 504230
+  },
+  {
+    "name": "Hollow Knight",
+    "appId": 367520
+  },
+  {
+    "name": "Stardew Valley",
+    "appId": 413150
+  },
+  {
+    "name": "Hades",
+    "appId": 1145350
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "appId": 1091500
+  },
+  {
+    "name": "Fortnite",
+    "appId": null
+  },
+  {
+    "name": "League of Legends",
+    "appId": 1276790
+  },
+  {
+    "name": "Valorant",
+    "appId": null
+  },
+  {
+    "name": "Counter-Strike 2 (Global Offensive)",
+    "appId": 730
+  },
+  {
+    "name": "Dota 2",
+    "appId": 570
+  },
+  {
+    "name": "Among Us",
+    "appId": 945360
+  },
+  {
+    "name": "Fall Guys",
+    "appId": null
+  },
+  {
+    "name": "Rocket League",
+    "appId": null
+  },
+  {
+    "name": "Apex Legends",
+    "appId": 1172470
+  },
+  {
+    "name": "Call of Duty: Warzone",
+    "appId": 1962663
+  },
+  {
+    "name": "Overwatch 2",
+    "appId": null
+  },
+  {
+    "name": "Team Fortress 2",
+    "appId": 440
+  },
+  {
+    "name": "Paladins",
+    "appId": 444090
+  },
+  {
+    "name": "Smite",
+    "appId": 2437170
+  },
+  {
+    "name": "Genshin Impact",
+    "appId": null
+  },
+  {
+    "name": "Honkai: Star Rail",
+    "appId": null
+  },
+  {
+    "name": "Wuthering Waves",
+    "appId": 3513350
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "appId": 489830
+  },
+  {
+    "name": "Fallout 4",
+    "appId": 377160
+  },
+  {
+    "name": "Fallout: New Vegas",
+    "appId": 22380
+  },
+  {
+    "name": "Mass Effect 2",
+    "appId": 2362420
+  },
+  {
+    "name": "Mass Effect Legendary Edition",
+    "appId": 1328670
+  },
+  {
+    "name": "Dragon Age: Inquisition",
+    "appId": 1222690
+  },
+  {
+    "name": "Kingdom Come: Deliverance",
+    "appId": 379430
+  },
+  {
+    "name": "Starfield",
+    "appId": 1716740
+  },
+  {
+    "name": "Outer Worlds",
+    "appId": 1449110
+  },
+  {
+    "name": "Horizon Zero Dawn",
+    "appId": 2561580
+  },
+  {
+    "name": "Horizon Forbidden West",
+    "appId": 2420110
+  },
+  {
+    "name": "Ghost of Tsushima",
+    "appId": 2215430
+  },
+  {
+    "name": "Days Gone",
+    "appId": 1259420
+  },
+  {
+    "name": "Death Stranding",
+    "appId": 3280350
+  },
+  {
+    "name": "Metal Gear Solid V: The Phantom Pain",
+    "appId": 287700
+  },
+  {
+    "name": "Resident Evil 4 (Remake)",
+    "appId": 2050650
+  },
+  {
+    "name": "Resident Evil 2 (Remake)",
+    "appId": 883710
+  },
+  {
+    "name": "Resident Evil Village",
+    "appId": 1196590
+  },
+  {
+    "name": "Silent Hill 2 (Remake)",
+    "appId": 2124490
+  },
+  {
+    "name": "Alan Wake 2",
+    "appId": null
+  },
+  {
+    "name": "Control",
+    "appId": 4165870
+  },
+  {
+    "name": "Dead Space (Remake)",
+    "appId": 1693980
+  },
+  {
+    "name": "The Callisto Protocol",
+    "appId": 1544020
+  },
+  {
+    "name": "Outlast 2",
+    "appId": 414700
+  },
+  {
+    "name": "Amnesia: The Bunker",
+    "appId": 1944430
+  },
+  {
+    "name": "Soma",
+    "appId": 282140
+  },
+  {
+    "name": "Little Nightmares 2",
+    "appId": 860510
+  },
+  {
+    "name": "Until Dawn",
+    "appId": 2172010
+  },
+  {
+    "name": "The Quarry",
+    "appId": 1577120
+  },
+  {
+    "name": "Detroit: Become Human",
+    "appId": 1222140
+  },
+  {
+    "name": "Heavy Rain",
+    "appId": 960910
+  },
+  {
+    "name": "Beyond: Two Souls",
+    "appId": 960990
+  },
+  {
+    "name": "Life is Strange",
+    "appId": 2624870
+  },
+  {
+    "name": "Life is Strange: True Colors",
+    "appId": 936790
+  },
+  {
+    "name": "Telltale's The Walking Dead",
+    "appId": null
+  },
+  {
+    "name": "The Wolf Among Us",
+    "appId": 250320
+  },
+  {
+    "name": "Batman: Arkham Knight",
+    "appId": 208650
+  },
+  {
+    "name": "Batman: Arkham City",
+    "appId": 200260
+  },
+  {
+    "name": "Spider-Man (2018)",
+    "appId": 2651280
+  },
+  {
+    "name": "Spider-Man: Miles Morales",
+    "appId": 1817190
+  },
+  {
+    "name": "Spider-Man 2",
+    "appId": 2651280
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "appId": 1088850
+  },
+  {
+    "name": "Avengers (2020)",
+    "appId": 405310
+  },
+  {
+    "name": "Star Wars Jedi: Fallen Order",
+    "appId": 1172380
+  },
+  {
+    "name": "Star Wars Jedi: Survivor",
+    "appId": 1774580
+  },
+  {
+    "name": "Star Wars Battlefront 2",
+    "appId": 1237950
+  },
+  {
+    "name": "Halo Infinite",
+    "appId": 1240440
+  },
+  {
+    "name": "Halo: The Master Chief Collection",
+    "appId": 976730
+  },
+  {
+    "name": "Gears 5",
+    "appId": 1097840
+  },
+  {
+    "name": "Gears of War 4",
+    "appId": null
+  },
+  {
+    "name": "Forza Horizon 5",
+    "appId": 1551360
+  },
+  {
+    "name": "Forza Motorsport (2023)",
+    "appId": 2440510
+  },
+  {
+    "name": "Gran Turismo 7",
+    "appId": null
+  },
+  {
+    "name": "Need for Speed Unbound",
+    "appId": 1846380
+  },
+  {
+    "name": "Need for Speed Heat",
+    "appId": 1222680
+  },
+  {
+    "name": "Burnout Paradise Remastered",
+    "appId": 1238080
+  },
+  {
+    "name": "The Crew 2",
+    "appId": 646910
+  },
+  {
+    "name": "The Crew Motorfest",
+    "appId": 2698940
+  },
+  {
+    "name": "Mario Kart 8 Deluxe",
+    "appId": null
+  },
+  {
+    "name": "Crash Team Racing Nitro-Fueled",
+    "appId": null
+  },
+  {
+    "name": "Sonic & All-Stars Racing Transformed",
+    "appId": 212480
+  },
+  {
+    "name": "F1 23",
+    "appId": 2426210
+  },
+  {
+    "name": "Diablo IV",
+    "appId": 2344520
+  },
+  {
+    "name": "Diablo III",
+    "appId": null
+  },
+  {
+    "name": "Path of Exile",
+    "appId": 2694490
+  },
+  {
+    "name": "Grim Dawn",
+    "appId": 219990
+  },
+  {
+    "name": "Torchlight II",
+    "appId": 200710
+  },
+  {
+    "name": "Borderlands 3",
+    "appId": 397540
+  },
+  {
+    "name": "Borderlands 2",
+    "appId": 49520
+  },
+  {
+    "name": "Tiny Tina's Wonderlands",
+    "appId": 1286680
+  },
+  {
+    "name": "Destiny 2",
+    "appId": 1085660
+  },
+  {
+    "name": "Warframe",
+    "appId": 230410
+  },
+  {
+    "name": "The Division 2",
+    "appId": 2221490
+  },
+  {
+    "name": "Remnant 2",
+    "appId": 1282100
+  },
+  {
+    "name": "Monster Hunter: World",
+    "appId": 582010
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "appId": 1446780
+  },
+  {
+    "name": "Dauntless",
+    "appId": 2923180
+  },
+  {
+    "name": "Wild Hearts",
+    "appId": 1938010
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "appId": 814380
+  },
+  {
+    "name": "Nioh 2",
+    "appId": 1325200
+  },
+  {
+    "name": "Wo Long: Fallen Dynasty",
+    "appId": 1448440
+  },
+  {
+    "name": "Bloodborne",
+    "appId": null
+  },
+  {
+    "name": "Demon's Souls (Remake)",
+    "appId": null
+  },
+  {
+    "name": "Lies of P",
+    "appId": 1627720
+  },
+  {
+    "name": "Thymesia",
+    "appId": 1343240
+  },
+  {
+    "name": "Mortal Shell",
+    "appId": 2584270
+  },
+  {
+    "name": "Steelrising",
+    "appId": 1283400
+  },
+  {
+    "name": "Star Wars: Fallen Order",
+    "appId": null
+  },
+  {
+    "name": "Jedi Knight: Jedi Academy",
+    "appId": 6020
+  },
+  {
+    "name": "No Man's Sky",
+    "appId": 275850
+  },
+  {
+    "name": "Subnautica",
+    "appId": 1962700
+  },
+  {
+    "name": "Subnautica: Below Zero",
+    "appId": 848450
+  },
+  {
+    "name": "The Forest",
+    "appId": 242760
+  },
+  {
+    "name": "Sons of the Forest",
+    "appId": 1326470
+  },
+  {
+    "name": "Green Hell",
+    "appId": 815370
+  },
+  {
+    "name": "Stranded Deep",
+    "appId": 313120
+  },
+  {
+    "name": "Raft",
+    "appId": 648800
+  },
+  {
+    "name": "Valheim",
+    "appId": 892970
+  },
+  {
+    "name": "Grounded",
+    "appId": 2661300
+  },
+  {
+    "name": "FIFA 24",
+    "appId": null
+  },
+  {
+    "name": "eFootball",
+    "appId": 1665460
+  },
+  {
+    "name": "EA SPORTS UFC 5",
+    "appId": null
+  },
+  {
+    "name": "EA SPORTS UFC 4",
+    "appId": null
+  }
+]
