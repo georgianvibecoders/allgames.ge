@@ -48,42 +48,48 @@ const POPULAR_GAMES = [
     title: 'Cyberpunk 2077',
     price: '79.99',
     image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=600&auto=format&fit=crop',
-    platform: 'PC'
+    platform: 'PC',
+    genre: 'RPG'
   },
   {
     id: 2,
     title: 'God of War Ragnarök',
     price: '89.99',
     image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop',
-    platform: 'PlayStation'
+    platform: 'PlayStation',
+    genre: 'Action'
   },
   {
     id: 3,
     title: 'Hogwarts Legacy',
     price: '69.99',
     image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=600&auto=format&fit=crop',
-    platform: 'Multi'
+    platform: 'Multi',
+    genre: 'Adventure'
   },
   {
     id: 4,
     title: 'Red Dead Redemption 2',
     price: '59.99',
     image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=600&auto=format&fit=crop',
-    platform: 'Multi'
+    platform: 'Multi',
+    genre: 'Action'
   },
   {
     id: 5,
     title: 'The Witcher 3: Wild Hunt',
     price: '39.99',
     image: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=600&auto=format&fit=crop',
-    platform: 'Multi'
+    platform: 'Multi',
+    genre: 'RPG'
   },
   {
     id: 6,
     title: 'Baldur\'s Gate 3',
     price: '39.99',
     image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=600&auto=format&fit=crop',
-    platform: 'PC'
+    platform: 'PC',
+    genre: 'RPG'
   }
 ];
 
@@ -122,6 +128,17 @@ const BRANDS = ['STEAM', 'EPIC GAMES', 'UBISOFT', 'EA', 'ROCKSTAR GAMES', 'BANDA
 export default function App() {
   const [activeTab, setActiveTab] = useState('მთავარი');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [selectedPlatform, setSelectedPlatform] = useState('ყველა');
+  const [selectedGenre, setSelectedGenre] = useState('ყველა');
+
+  const platforms = ['ყველა', 'PC', 'PlayStation', 'Multi'];
+  const genres = ['ყველა', 'Action', 'RPG', 'Adventure'];
+
+  const filteredGames = POPULAR_GAMES.filter(game => {
+    const matchPlatform = selectedPlatform === 'ყველა' || game.platform === selectedPlatform;
+    const matchGenre = selectedGenre === 'ყველა' || game.genre === selectedGenre;
+    return matchPlatform && matchGenre;
+  });
 
   return (
     <div className="min-h-screen bg-[#030712] font-sans selection:bg-primary-500 selection:text-white pb-20 lg:pb-0">
@@ -358,23 +375,60 @@ export default function App() {
 
         {/* Popular Games Section */}
         <section className="py-8 lg:py-12 max-w-7xl mx-auto px-4 md:px-8">
-          <div className="flex items-center justify-between mb-8 lg:mb-12">
+          <div className="flex items-center justify-between mb-6 lg:mb-8">
             <h2 className="text-xl lg:text-3xl font-display font-bold">პოპულარული თამაშები</h2>
             <button className="flex items-center gap-2 text-indigo-400 text-xs lg:text-sm font-bold group">
               ყველა <span className="hidden sm:inline">თამაში</span> <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-6">
-            {POPULAR_GAMES.map((game, idx) => (
-              <motion.div
-                key={game.id}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ delay: idx * 0.05 }}
-                viewport={{ once: true }}
-                className="group relative"
-              >
+          <div className="flex flex-wrap items-center gap-4 mb-8 lg:mb-12">
+            <div className="flex items-center gap-1 bg-white/5 p-1 rounded-xl border border-white/10 overflow-x-auto no-scrollbar max-w-full">
+              {platforms.map(platform => (
+                <button
+                  key={platform}
+                  onClick={() => setSelectedPlatform(platform)}
+                  className={`px-3 lg:px-4 py-1.5 lg:py-2 rounded-lg text-xs lg:text-sm font-medium transition-all whitespace-nowrap ${
+                    selectedPlatform === platform 
+                      ? 'bg-indigo-600 text-white shadow-lg' 
+                      : 'text-gray-400 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  {platform}
+                </button>
+              ))}
+            </div>
+            
+            <div className="flex items-center gap-1 bg-white/5 p-1 rounded-xl border border-white/10 overflow-x-auto no-scrollbar max-w-full">
+              {genres.map(genre => (
+                <button
+                  key={genre}
+                  onClick={() => setSelectedGenre(genre)}
+                  className={`px-3 lg:px-4 py-1.5 lg:py-2 rounded-lg text-xs lg:text-sm font-medium transition-all whitespace-nowrap ${
+                    selectedGenre === genre 
+                      ? 'bg-indigo-600 text-white shadow-lg' 
+                      : 'text-gray-400 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  {genre}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {filteredGames.length > 0 ? (
+            <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 lg:gap-6">
+              <AnimatePresence mode="popLayout">
+                {filteredGames.map((game, idx) => (
+                  <motion.div
+                    key={game.id}
+                    layoutId={`game-${game.id}`}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ duration: 0.2 }}
+                    className="group relative"
+                  >
                 <div className="relative aspect-[3/4] rounded-xl lg:rounded-2xl overflow-hidden mb-3 lg:mb-4 border border-white/5 group-hover:border-indigo-500/50 transition-all">
                   <img 
                     src={game.image} 
@@ -401,7 +455,17 @@ export default function App() {
                 </div>
               </motion.div>
             ))}
+            </AnimatePresence>
           </div>
+          ) : (
+            <motion.div 
+              initial={{ opacity: 0 }} 
+              animate={{ opacity: 1 }} 
+              className="text-center py-12 lg:py-20 text-gray-500 border border-white/5 rounded-2xl bg-white/[0.02]"
+            >
+              ამ კრიტერიუმებით თამაშები არ მოიძებნა.
+            </motion.div>
+          )}
         </section>
 
         {/* Blog / News Section */}
